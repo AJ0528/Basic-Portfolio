@@ -1,5 +1,5 @@
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 body{
     background:url(../images/spiration-light.png) repeat; 
@@ -23,15 +23,31 @@ header h1{
     background:#4aaaaa;
     color:white;
     display: inline-block;
-    padding: 20px;
-    font-size:25px;
+    padding: 30px;
+    font-size:30px;
 }
 
 nav {width:300px;
     float:right;
-    margin-top:25px;
-    text-emphasis:center;}
+    margin-top:35px;
+    text-align:center;}
 
+nav ul li{
+        display:inline;
+
+}
+nav a{
+    color:#333;
+    font-size:14px;
+    padding:6px;
+    border-right: 2px solid#4aaaaa;
+    text-decoration: none;
+}
+
+nav ul li:last-child a{
+    border-right:none;
+    padding-right:none;
+}
 
 .wrapper{width:960px;
         margin:0 auto;}
