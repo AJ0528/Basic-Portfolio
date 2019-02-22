@@ -2,5 +2,8 @@
     box-sizing:border-box;
 }
 body{
-    background:url(C:\Users\puert\OneDrive\Documents\UCFFolder\Homework\Basic-Portfolio\assets\images\spirationlight\spiration-light.png)
+    background:url(../images/spiration-light.png) repeat; 
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:auto;
+    color:#777777;
 }
