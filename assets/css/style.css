@@ -27,6 +27,11 @@ header h1{
     font-size:25px;
 }
 
+nav {width:300px;
+    float:right;
+    margin-top:25px;
+    text-emphasis:center;}
+
 
 .wrapper{width:960px;
         margin:0 auto;}
