@@ -50,4 +50,24 @@ nav ul li:last-child a{
 }
 
 .wrapper{width:960px;
-        margin:0 auto;}
+        margin:0 auto;
+}
+.clearfix{
+    display:block;
+    clear:both;
+}
+
+#left-column, #right-column{
+    background:white;
+    padding: 25px;
+    border: 2px solid #ccc;
+}
+
+#left-column{
+    width:650px;
+    float:left;
+}
+#right-column{
+    width:270px;
+    float:right;
+}
