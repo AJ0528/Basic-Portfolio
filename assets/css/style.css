@@ -9,6 +9,8 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaaa;
+    font-weight: bold;
 }
 
 header{
@@ -17,7 +19,13 @@ header{
     margin-bottom: 30px;
 }
 
-
+header h1{
+    background:#4aaaaa;
+    color:white;
+    display: inline-block;
+    padding: 20px;
+    font-size:25px;
+}
 
 
 .wrapper{width:960px;
